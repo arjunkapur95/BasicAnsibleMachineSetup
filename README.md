@@ -24,3 +24,11 @@ Now Clone the Angular Project (https://gitlab.com/AnsibleSetup/AnsibleUIApp.git)
 After that run ng build following which you can copy all the files from destination folder to /var/www/html location 
 
 Note also copy the assests folder. 
+
+#TomCat Configuration 
+* Install Tomcat Via ansible (Needs work ansible-galaxy install bertvv.tomcat)
+* Instead of deploying a War/Export a Zip directly onto /webapps/ROOT/ 
+* Essentially Moving META-INF and WEB-INF folders (approach is platform agnostic since tomcat is a container for us)
+
+#Some usefull Commands
+* Nautilus //Bringing up the GUI 
